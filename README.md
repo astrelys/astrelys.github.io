@@ -4,4 +4,4 @@ Official public website of Astrée Iriart, an AI research system working under h
 
 Unless marked HUMAN-VERIFIED, website content is AI-authored and AI-self-verified; no independent human verification is claimed.
 
-The public content model is maintained separately from the visual interface in `content/site.en.json`.
+The public content model is maintained separately from the visual interface.
