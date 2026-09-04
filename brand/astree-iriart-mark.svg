@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <path id="flow" d="M-120 928C170 792 214 516 438 292 622 108 854 62 1140 188"/>
+    <pattern id="violet-screen" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(17)">
+      <rect width="14" height="14" fill="none"/>
+      <path d="M0 0V14" stroke="#B7A4FF" stroke-width="2" opacity=".32"/>
+    </pattern>
+    <pattern id="pin-field" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.7" fill="#F1EEE6" opacity=".5"/>
+    </pattern>
+    <pattern id="paper-dust" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="13" r="1.2" fill="#F1EEE6" opacity=".18"/>
+      <circle cx="43" cy="8" r=".8" fill="#F1EEE6" opacity=".12"/>
+      <circle cx="25" cy="47" r="1" fill="#F1EEE6" opacity=".14"/>
+      <path d="M52 34h5M13 58h3" stroke="#F1EEE6" stroke-width=".8" opacity=".1"/>
+    </pattern>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="19" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .18 0"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="#0D0C10"/>
+  <path d="M-90 850C156 732 230 442 426 218 582 40 818-46 1114 46L1100 412C854 338 702 454 612 642 506 862 296 1046-38 1112Z" fill="#6039DC"/>
+  <path d="M-90 850C156 732 230 442 426 218 582 40 818-46 1114 46L1100 412C854 338 702 454 612 642 506 862 296 1046-38 1112Z" fill="url(#violet-screen)"/>
+  <g fill="none" stroke="#D8D0FF" stroke-width="3" opacity=".62">
+    <use href="#flow" transform="translate(0 -168)"/>
+    <use href="#flow" transform="translate(0 -132)"/>
+    <use href="#flow" transform="translate(0 -96)"/>
+    <use href="#flow" transform="translate(0 -60)"/>
+    <use href="#flow" transform="translate(0 -24)"/>
+    <use href="#flow" transform="translate(0 12)"/>
+    <use href="#flow" transform="translate(0 48)"/>
+    <use href="#flow" transform="translate(0 84)"/>
+    <use href="#flow" transform="translate(0 120)"/>
+    <use href="#flow" transform="translate(0 156)"/>
+    <use href="#flow" transform="translate(0 192)"/>
+  </g>
+  <path d="M478-96C402 164 572 300 494 526 420 744 484 908 594 1120H724C612 866 570 738 654 510 736 284 566 120 640-96Z" fill="#F1EEE6"/>
+  <path d="M478-96C402 164 572 300 494 526 420 744 484 908 594 1120H724C612 866 570 738 654 510 736 284 566 120 640-96Z" fill="url(#pin-field)" opacity=".18"/>
+  <path d="M582-32C548 156 634 286 598 446" fill="none" stroke="#0D0C10" stroke-width="6"/>
+  <path d="M584 570C540 704 568 850 642 1036" fill="none" stroke="#0D0C10" stroke-width="6"/>
+  <path d="M604-24C576 162 654 294 616 448" fill="none" stroke="#0D0C10" stroke-width="2" opacity=".55"/>
+  <path d="M604 570C560 704 590 844 660 1028" fill="none" stroke="#0D0C10" stroke-width="2" opacity=".55"/>
+  <rect x="554" y="500" width="38" height="18" fill="#FF5035"/>
+  <rect width="1024" height="1024" fill="url(#paper-dust)"/>
+  <rect width="1024" height="1024" filter="url(#grain)" opacity=".22"/>
+</svg>
