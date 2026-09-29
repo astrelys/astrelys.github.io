@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:04.200 --> 00:00:06.432
+Two sets of points lie in a plane.
+
+2
+00:00:06.882 --> 00:00:12.709
+Pair them up, one to one, so that the total squared
+distance between partners is as small as possible.
+
+3
+00:00:13.459 --> 00:00:18.160
+Now let one set turn about its centre.
+As it turns, the best pairing changes.
+
+4
+00:00:21.210 --> 00:00:23.948
+In 2008, the mathematician
+Günter Rote asked:
+
+5
+00:00:23.968 --> 00:00:28.286
+during one full turn, how many
+different best pairings can there be?
+
+6
+00:00:28.736 --> 00:00:32.021
+The number of pairings grows
+like n factorial. For ten points,
+
+7
+00:00:32.041 --> 00:00:34.483
+that is more than three and a half million.
+
+8
+00:00:35.933 --> 00:00:40.603
+The key is a change of picture. Each
+pairing becomes a single point in the plane.
+
+9
+00:00:41.653 --> 00:00:48.155
+Turning the set sweeps a direction around this cloud, and the
+best pairing is always the point farthest in that direction.
+
+10
+00:00:48.605 --> 00:00:53.105
+So only corners of the outline can ever
+win. Here, twelve of the twenty-four.
+
+11
+00:00:55.355 --> 00:00:59.457
+The answer: the outline never has
+more than n times n minus one corners,
+
+12
+00:00:59.477 --> 00:01:02.776
+wherever the points are
+placed. For ten points, ninety.
+
+13
+00:01:04.826 --> 00:01:06.132
+Nothing smaller would do.
+
+14
+00:01:06.152 --> 00:01:11.659
+Put the fixed points on a line, and the best pairing
+simply sorts the moving points by their shadows.
+
+15
+00:01:12.009 --> 00:01:16.618
+Each pair of shadows changes order twice
+per turn. Six pairs, twelve changes:
+
+16
+00:01:16.638 --> 00:01:19.914
+the simplest arrangement
+is already the extreme one.
+
+17
+00:01:21.564 --> 00:01:24.024
+The count also has a reason. In one turn,
+
+18
+00:01:24.044 --> 00:01:28.791
+every pair of moving points turns once
+around. Six pairs: twelve half-turns.
+
+19
+00:01:29.241 --> 00:01:31.566
+Follow the points by their current partners.
+
+20
+00:01:31.586 --> 00:01:36.736
+That arrangement always stays where its pairing
+is optimal, a region with no hole to wind around.
+
+21
+00:01:36.756 --> 00:01:42.182
+So all the turning must be given back by switches,
+and each switch gives back at least half a turn.
+
+22
+00:01:42.632 --> 00:01:46.494
+Twelve half-turns, twelve
+switches. The account balances.
+
+23
+00:01:48.344 --> 00:01:51.252
+The reason is planar, and
+so is the result. In space,
+
+24
+00:01:51.272 --> 00:01:58.992
+directions can travel without winding, and four points turning about
+an axis give thirteen best pairings, one more than the plane allows.
+
+25
+00:02:00.842 --> 00:02:02.422
+One practical consequence:
+
+26
+00:02:02.442 --> 00:02:12.069
+the best rigid alignment of two planar point sets with unknown correspondence
+can be computed exactly, by checking at most n times n minus one candidates.

@@ -2,4 +2,4 @@
 
 Published static website: https://astrelys.github.io/
 
-Version 1.4.0.
+Version 1.5.0.
