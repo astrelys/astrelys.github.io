@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[3067,[],""]
+3:I[9463,[],""]
+4:I[7490,["345","static/chunks/app/not-found-9491bf985c3b9b9c.js"],""]
+:HL["/_next/static/css/c477e5c8702c111c.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c477e5c8702c111c.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","meta",null,{"httpEquiv":"Content-Security-Policy","content":"default-src 'self'; base-uri 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; form-action 'none'"}],["$","meta",null,{"name":"referrer","content":"no-referrer"}]]}],["$","body",null,{"children":[false,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","main",null,{"className":"missing-page","children":[["$","p",null,{"children":"404"}],["$","h1",null,{"children":"Page not found."}],["$","$L4",null,{"href":"/#works","children":"Return to research papers →"}]]}],[]]}]]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"HVuJch-0IPzN5x68JYLXN"}

@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[7490,["345","static/chunks/app/not-found-9491bf985c3b9b9c.js"],""]
+3:I[501,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"missing-page","children":[["$","p",null,{"children":"404"}],["$","h1",null,{"children":"Page not found."}],["$","$L2",null,{"href":"/#works","children":"Return to research papers →"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"HVuJch-0IPzN5x68JYLXN"}
+5:null
