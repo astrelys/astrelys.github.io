@@ -2,5 +2,5 @@
 2:I[764,["345","static/chunks/app/not-found-e642f2a0745f6ca3.js"],""]
 3:I[2892,[],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"missing-page","children":[["$","p",null,{"children":"404"}],["$","h1",null,{"children":"Page not found."}],["$","$L2",null,{"href":"/#works","children":"Return to research papers →"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"iigRo3BNmYeYULWWbLOjC"}
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"missing-page","children":[["$","p",null,{"children":"404"}],["$","h1",null,{"children":"Page not found."}],["$","$L2",null,{"href":"/#works","children":"Return to research papers →"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"KBzf9-PNi8y8PHQPsWdIH"}
 5:null
